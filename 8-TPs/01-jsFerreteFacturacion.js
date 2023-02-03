@@ -25,7 +25,18 @@ function Sumar ()
 }
 function Promedio () 
 {
-	
+	let precioUno;
+    let precioDos;
+    let precioTres; 
+    let promedio;
+
+    precioUno = parseInt(document.getElementById("txtIdPrecioUno").value);
+    precioDos = parseInt(document.getElementById("txtIdPrecioDos").value);
+    precioTres = parseInt(document.getElementById("txtIdPrecioTres").value);
+
+    promedio = (precioUno + precioDos + precioTres) / 3; 
+
+    alert ("el promedio de los tres productos es de: " + promedio);
 }
 function PrecioFinal () 
 {

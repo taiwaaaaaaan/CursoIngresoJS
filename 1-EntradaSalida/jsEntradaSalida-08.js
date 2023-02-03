@@ -2,7 +2,9 @@
 Debemos lograr tomar Los numeros por ID ,
 transformarlos a enteros (parseInt),realizar la operación correcta y 
 mostrar el resto entre el dividendo y el divisor.
-ej.: "El resto es 0 ."*/
+ej.: "El resto es 0 ."
+Theo Garcia E/S Ejer. 8
+*/
 function SacarResto()
 {
   let dividendo;
@@ -13,5 +15,6 @@ function SacarResto()
   divisor = parseInt(document.getElementById("txtIdNumeroDivisor").value);
 
   resto = dividendo % divisor;
-  alert(resto);
+
+  alert("El resto es " + resto);
 }

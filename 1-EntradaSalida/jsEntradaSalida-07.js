@@ -44,7 +44,7 @@ function multiplicar()
 
     Resultado = NumeroUno * NumeroDos;
 
-    alert("la multiplicacion " + Resultado);
+    alert("la multiplicacion es " + Resultado);
 }
 
 function dividir()
